@@ -1,0 +1,120 @@
+@import url(./nullstyle.scss);
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  height: 200px;
+  background: #05005e;
+  background: -webkit-gradient(linear, left top, right top, from(#05005e), to(#00bade));
+  background: linear-gradient(90deg, #05005e 0%, #00bade 100%);
+  padding: 50px 50px;
+}
+
+header h1, header h2 {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0 0 10px 0;
+}
+
+header h2 {
+  font-size: 20px;
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3d7ec9;
+  padding: 50px 50px;
+}
+
+.summary p {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin: auto 0;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.summary a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.preamble {
+  padding: 50px 50px;
+}
+
+.preamble h3 {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 0 15px 0;
+}
+
+.preamble p {
+  padding: 30px;
+  background-color: #112a3b;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.preamble p:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+
+.main.supporting {
+  padding: 50px 50px;
+  background-color: #bdeeea;
+}
+
+.main.supporting h3 {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.main.supporting > div {
+  margin: 0 0 20px 0;
+}
+
+.main.supporting a {
+  text-decoration: underline;
+  color: #067ece;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer a {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+aside {
+  background-color: #121d35;
+  padding: 50px 50px;
+}
+
+aside h3 {
+  font-size: 30px;
+  color: #fff;
+}
+
+aside a {
+  color: #067ece;
+  text-decoration: underline;
+}
+
+aside li {
+  color: #067ece;
+}
